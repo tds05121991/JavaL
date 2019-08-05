@@ -54,6 +54,7 @@ public class Main {
 
         } else {
             System.out.println("You are hasker");
+            System.out.println("good");
         }
 
 
