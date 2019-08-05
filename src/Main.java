@@ -31,6 +31,27 @@ public class Main {
 
         if (age > 0) {
             System.out.println("Your name is " + name + " and you are " + age + " years old");
+
+            if (age < 7) {
+                System.out.println("Your are in yasli");
+            } else if (age < 18) {
+                System.out.println("Your are in school");
+            } else if (age < 65) {
+                System.out.println("Your are working man");
+            }
+
+            if ( (age < 7) && (age >= 5) ) {
+                System.out.println("If with &&");
+            }
+
+            if ( ((age < 18) || (age > 65)) && (age < 100)) {
+                System.out.println("Your are not working");
+            }
+
+            if ( !(age < 100) ) {
+                System.out.println("If with !");
+            }
+
         } else {
             System.out.println("You are hasker");
         }
