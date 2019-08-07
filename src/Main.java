@@ -9,33 +9,41 @@ public class Main {
         short s = 1;
         int i = 2;
         long l = 5;
-
         float f = 1.1f;
         double d = 2.7;
-
         boolean bool1 = true;
         boolean bool2 = false;
 
         char c = '1';
         String str = "Hello world";
-
         int summa = 2 + 5 + i;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Hello! I'am java program");
+
         System.out.println("What is your name?");
         String name = scanner.next();
+
+        System.out.println("What is your last name?");
+        String lastName = scanner.next();
+
         System.out.println("How old are you?");
         int age = scanner.nextInt();
 
         if (age > 0) {
-            System.out.println("Your name is " + name + " and you are " + age + " years old");
+            System.out.println("Your name is " + name + " and you are " + age + " years old"
+            + " your last name is " + lastName );
+
+
+
 
             if (age < 7) {
                 System.out.println("Your are in yasli");
+
             } else if (age < 18) {
                 System.out.println("Your are in school");
+
             } else if (age < 65) {
                 System.out.println("Your are working man");
             }
@@ -55,6 +63,7 @@ public class Main {
         } else {
             System.out.println("You are hasker");
             System.out.println("good");
+
         }
 
 
@@ -87,9 +96,6 @@ public class Main {
 
         System.out.println("Hello, World!");    //Тут я оставлю комент
         System.out.println("My name is Anton");
-
-
-
     }
 
 }
